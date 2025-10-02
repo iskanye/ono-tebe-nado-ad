@@ -41,9 +41,8 @@
 
 .cover {
   position: relative;
-  justify-self: end;
   height: 757px;
-  margin-bottom: 120px;
+  margin-bottom: 180px;
   padding: 165px 50px 50px;
   background-image: url("/images/cover.jpg");
   background-repeat: no-repeat;
@@ -124,7 +123,7 @@
 .lots {
   display: flex;
   flex-direction: column;
-  margin: 60px 24px;
+  margin: 0 24px 120px;
 }
 
 .lots__heading {
@@ -204,7 +203,7 @@
   display: grid;
   grid-template-columns: 334px 1fr;
   height: 595px;
-  margin: 60px 24px;
+  margin: 0 24px 180px;
 }
 
 .about__column {
@@ -251,7 +250,6 @@
 .footer {
   display: grid;
   grid-template-columns: 1fr max-content 1fr;
-  margin-top: 120px;
   padding: 0 50px 82px;
   font-size: 18px;
 }
