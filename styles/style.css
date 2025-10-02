@@ -116,7 +116,7 @@
   transition: all 0.5s ease;
 }
 
-.bet_button:hover {    
+.bet_button:hover {
   color: black;
   background: white;
 }
@@ -128,18 +128,18 @@
 }
 
 .lots__heading {
-  margin-left: 40px;
   margin-bottom: 27px;
+  margin-left: 40px;
   font-size: 40px;
   text-transform: uppercase;
 }
 
 .lots__card-list {
   display: flex;
-  justify-content: space-between;
-  list-style-type: none;
   flex-wrap: wrap;
+  justify-content: space-between;
   gap: 25px;
+  list-style-type: none;
 }
 
 .lots__card-list-item {
@@ -169,11 +169,11 @@
 }
 
 .second_card {
-  background-image: url("/images/card-lot-02.jpg");  
+  background-image: url("/images/card-lot-02.jpg");
 }
 
 .third_card {
-  background-image: url("/images/card-lot-03.jpg");  
+  background-image: url("/images/card-lot-03.jpg");
 }
 
 .card__title,
@@ -185,10 +185,11 @@
 .card__title {
   font-weight: 700;
   font-size: 22px;
+  text-decoration: underline;
   text-transform: uppercase;
 }
 
-.card__text, 
+.card__text,
 .lots__look-more-link {
   font-size: 20px;
 }
@@ -200,10 +201,10 @@
 }
 
 .about {
-  height: 595px;
-  margin: 60px 24px;
   display: grid;
   grid-template-columns: 334px 1fr;
+  height: 595px;
+  margin: 60px 24px;
 }
 
 .about__column {
@@ -211,16 +212,16 @@
   flex-direction: column;
 }
 
-.about__logo {   
+.about__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 240px;
   height: 240px;
-  background-color: black; 
-  border-radius: 50%;
   margin-top: 35px;
   margin-left: 47px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+  border-radius: 50%;
+  background-color: black;
 }
 
 .about__logo-image {
@@ -231,9 +232,9 @@
 .about__title {
   margin-top: 136px;
   margin-left: 25px;
-  text-transform: uppercase;
-  font-size: 40px;
   font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
 }
 
 .about__text {
@@ -243,7 +244,7 @@
   line-height: 24px;
 }
 
-.about__text:nth-child(2) {  
+.about__text:nth-child(2) {
   margin-top: 24px;
 }
 
@@ -256,21 +257,21 @@
 }
 
 .footer__menu-list {
-  list-style: none;
   display: flex;
   flex-direction: column;
   align-items: center;
+  list-style: none;
 }
 
 .footer__menu-item_active .footer__menu-link {
   text-decoration: none;
 }
 
-.footer__social-list { 
-  margin-left: 177.5px; 
-  list-style: none;
+.footer__social-list {
   display: flex;
   justify-content: space-between;
+  margin-left: 177.5px;
+  list-style: none;
 }
 
 .footer__social-list-item {
